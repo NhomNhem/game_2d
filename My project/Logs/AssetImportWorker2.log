@@ -1,0 +1,1945 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16272 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+H:/github/game_2d/My project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56199
+Successfully changed project path to: H:/github/game_2d/My project
+H:/github/game_2d/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18120] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2434484296 [EditorId] 2434484296 [Version] 1048832 [Id] WindowsEditor(7,AL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18120] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2434484296 [EditorId] 2434484296 [Version] 1048832 [Id] WindowsEditor(7,AL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 8.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/github/game_2d/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8019 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006576 seconds.
+- Loaded All Assemblies, in  0.405 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.324 seconds
+Domain Reload Profiling: 728ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (97ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (151ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (325ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (252ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image H:\github\game_2d\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\github\game_2d\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.701 seconds
+Refreshing native plugins compatible for Editor in 3.32 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.729 seconds
+Domain Reload Profiling: 1428ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (481ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (291ms)
+			TypeCache.Refresh (266ms)
+				TypeCache.ScanAssembly (255ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (729ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (568ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (446ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3998 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (245.1 KB). Loaded Objects now: 4456.
+Memory consumption went from 138.7 MB to 138.5 MB.
+Total: 3.529100 ms (FindLiveObjects: 0.268900 ms CreateObjectMapping: 0.246500 ms MarkObjects: 2.838100 ms  DeleteObjects: 0.174900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 229595.075489 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Item - MDP
+  artifactKey: Guid(908946d0a4dfc14498a22c01f7618974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Item - MDP using Guid(908946d0a4dfc14498a22c01f7618974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ca9663dd55d9357571ee4a1d5a9653') in 0.003495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.813841 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg00.png
+  artifactKey: Guid(e35aced68627f904b80197b36a51b077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg00.png using Guid(e35aced68627f904b80197b36a51b077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c806a14252b159e15b0504b1bad96a6') in 0.108117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg35.png
+  artifactKey: Guid(1f489f1ff1fcbe040bc49b3816b63aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg35.png using Guid(1f489f1ff1fcbe040bc49b3816b63aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df31fe09d5658a6f0f99bcac481e108e') in 0.018835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg07.png
+  artifactKey: Guid(5770c613d7016bc4faae332226df883f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg07.png using Guid(5770c613d7016bc4faae332226df883f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c56d3d7c7b7d1bf98b5af4d39e2e13') in 0.022713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg115.png
+  artifactKey: Guid(e1283813033ed964bb916a7179a2f2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg115.png using Guid(e1283813033ed964bb916a7179a2f2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42669191b438bd70b73aa829cbc0f549') in 0.022030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg17.png
+  artifactKey: Guid(ce637addfc505f94d8fc1f18f2da7514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg17.png using Guid(ce637addfc505f94d8fc1f18f2da7514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387228c38136420e7913983fbca66a97') in 0.017888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg13.png
+  artifactKey: Guid(67be4d76fc492f449a5f35ba32b9b1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg13.png using Guid(67be4d76fc492f449a5f35ba32b9b1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c5b3170bc257b709350cde78451c48') in 0.020918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg08.png
+  artifactKey: Guid(c455f91389652ff4fb544acd239c968f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg08.png using Guid(c455f91389652ff4fb544acd239c968f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6166a387e0c781eb2611f58deabd119') in 0.018351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg011.png
+  artifactKey: Guid(745198744e8cd4c42b7a660967bb5379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg011.png using Guid(745198744e8cd4c42b7a660967bb5379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834d4986ae88be6241977ebb2e4d3cd9') in 0.019582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg21.png
+  artifactKey: Guid(b4de89e9b83352e40989160badd500c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg21.png using Guid(b4de89e9b83352e40989160badd500c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce633f9418a12d4e602e28fc5ba6612') in 0.018753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg31.png
+  artifactKey: Guid(9473ca7e568fe9540afb76c367e64c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg31.png using Guid(9473ca7e568fe9540afb76c367e64c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28791661cd19d7f7150069272f2106c0') in 0.019281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg15.png
+  artifactKey: Guid(9374c6c62512054448ac7c6c7e737038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg15.png using Guid(9374c6c62512054448ac7c6c7e737038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cdbc925c96c08f01256eb4d832ff41') in 0.016629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg23.png
+  artifactKey: Guid(2b932745f5667e649948a37e62d6e78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg23.png using Guid(2b932745f5667e649948a37e62d6e78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158bf1cee26b155868faa6ff0cbb820d') in 0.020088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg34.png
+  artifactKey: Guid(38758972835c65140b744cf09572815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg34.png using Guid(38758972835c65140b744cf09572815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91591fd759a0229eb97d36e0ebf7223e') in 0.019445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Pixel NSO - MDP/Backgrounds - MDP/bg015.png
+  artifactKey: Guid(6e958e4b677b62d42ba52452cc484571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Backgrounds - MDP/bg015.png using Guid(6e958e4b677b62d42ba52452cc484571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853ddb3d1c5dbfcba0b21e583e98b810') in 0.017872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 133.978058 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small67.png
+  artifactKey: Guid(16bcc5799e8cd94478b329becaaad920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small67.png using Guid(16bcc5799e8cd94478b329becaaad920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f913f502310de5da7c9ea1ee098e0c7') in 0.022004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small78.png
+  artifactKey: Guid(477cd4a9e09981e4cb24e63016adf95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small78.png using Guid(477cd4a9e09981e4cb24e63016adf95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bf60ff9ec80c5d22e84f1e9545fc86') in 0.017565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small74.png
+  artifactKey: Guid(be6f51776edb23f4b862c6594ef9a577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small74.png using Guid(be6f51776edb23f4b862c6594ef9a577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86add2bebb74945727433a68e8ac33f4') in 0.024449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small81.png
+  artifactKey: Guid(b01881cb4c0f09e46ad720f21f2428d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small81.png using Guid(b01881cb4c0f09e46ad720f21f2428d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45b2d32fc9c866ae9eb215cc5e5c4f0') in 0.022486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small70.png
+  artifactKey: Guid(58c6dfc098f602e43a66de5234d172fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small70.png using Guid(58c6dfc098f602e43a66de5234d172fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd49deb65d70de0cd114cf62ab1fa53d') in 0.024993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small77.png
+  artifactKey: Guid(a1028e56c5d0e3d43a4a8144c758404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small77.png using Guid(a1028e56c5d0e3d43a4a8144c758404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfadfed93ffe8a1255ce9734ee2ebd97') in 0.022513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small82.png
+  artifactKey: Guid(1f51b91110eb8ef4e979283a422da80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small82.png using Guid(1f51b91110eb8ef4e979283a422da80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c23c70a28b2d4481b17ac50562b0f5') in 0.021949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small73.png
+  artifactKey: Guid(456280979a0326f489c691eaa640c72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small73.png using Guid(456280979a0326f489c691eaa640c72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b2442c2f2c7d2ae0b8b7fa1892ee13') in 0.020147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small72.png
+  artifactKey: Guid(7f6c44069c7e3c545b8b40a3250c2ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small72.png using Guid(7f6c44069c7e3c545b8b40a3250c2ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be517da209568c73283d613f19ad5d0') in 0.014588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.926931 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small84.png
+  artifactKey: Guid(7fd169736538fde4e949e67f498998f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small84.png using Guid(7fd169736538fde4e949e67f498998f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1690f3671a2431ee3546de670fd0f5f') in 0.022360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small93.png
+  artifactKey: Guid(483002f45f80d3c43ba501f5b65d2720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small93.png using Guid(483002f45f80d3c43ba501f5b65d2720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e4a81b5f87723fce456d6f8353b658') in 0.026946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small95.png
+  artifactKey: Guid(d78074f72aec4e942980c2858fad3cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small95.png using Guid(d78074f72aec4e942980c2858fad3cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb31004a6c1f921cd40c0408f8f9931c') in 0.023405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small91.png
+  artifactKey: Guid(f94d5abda566e9744831412a3bc05444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small91.png using Guid(f94d5abda566e9744831412a3bc05444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19577817ff84bc07dafe403be0969e54') in 0.018150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small108.png
+  artifactKey: Guid(aee4079b8e5cb3b46b975491a9c5ebe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small108.png using Guid(aee4079b8e5cb3b46b975491a9c5ebe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b7ff681003404c3e033b638d2cde67') in 0.019802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small106.png
+  artifactKey: Guid(121edfa4c56e0304589a50b462438b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small106.png using Guid(121edfa4c56e0304589a50b462438b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77176ed4ab8f274cc0688d57e2627b86') in 0.021443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small120.png
+  artifactKey: Guid(f1344125165073945af9f36cc6b51f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small120.png using Guid(f1344125165073945af9f36cc6b51f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e838fb8a465b4ed4cb892f7ef5b3fc42') in 0.018555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small122.png
+  artifactKey: Guid(b18cd57ef1f1b354291d3f630f97e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small122.png using Guid(b18cd57ef1f1b354291d3f630f97e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0fcf40b1a1aef4b2f04ab7641e2164') in 0.019744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small102.png
+  artifactKey: Guid(ab5475a213e84944ea5bfad01928ea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small102.png using Guid(ab5475a213e84944ea5bfad01928ea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7286e5af02cf65b629527945f4ce478') in 0.017830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small119.png
+  artifactKey: Guid(cce4236ea41a07b4982b8cbeb7f19eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small119.png using Guid(cce4236ea41a07b4982b8cbeb7f19eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca18744c379809a036c3e417ce128a0') in 0.022840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small113.png
+  artifactKey: Guid(ac708fa6e2829b14e831626033a2dd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small113.png using Guid(ac708fa6e2829b14e831626033a2dd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af40ffeded7464b6030b375174d7939f') in 0.020901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small107.png
+  artifactKey: Guid(e233c6c22ace0a14ab23e3de2d5f2def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small107.png using Guid(e233c6c22ace0a14ab23e3de2d5f2def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b08317905d819718fb0087df01f9b7') in 0.016197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small129.png
+  artifactKey: Guid(503a04c3946cc6e4cb9e72ae7ee5b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small129.png using Guid(503a04c3946cc6e4cb9e72ae7ee5b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cdf885a116d83c6d7caf903234e3b0') in 0.016192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small97.png
+  artifactKey: Guid(1f39476f8c9a98842889001c85cb8339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small97.png using Guid(1f39476f8c9a98842889001c85cb8339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5575e0fecc40f1ec62c07ca06fb781be') in 0.017039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small96.png
+  artifactKey: Guid(7b5d04cbaec01e843a2af65b65ecf609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small96.png using Guid(7b5d04cbaec01e843a2af65b65ecf609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ea6a0fb75bc86cdc227365e6a42338') in 0.016308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small111.png
+  artifactKey: Guid(0ddaadfc78dc4e844b7ee07da50a517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small111.png using Guid(0ddaadfc78dc4e844b7ee07da50a517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3df95a901702d5ddcf378f1147a0ce1') in 0.015783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small90.png
+  artifactKey: Guid(edb0824dec31e7640992cf75806480e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small90.png using Guid(edb0824dec31e7640992cf75806480e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5181845221b90c1a96edad34117baef6') in 0.018179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.172002 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small134.png
+  artifactKey: Guid(527f376dcc5f8534e9471326aeaf6754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small134.png using Guid(527f376dcc5f8534e9471326aeaf6754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc8a3a7b9d8c9bb826b4d1b70908687') in 0.016624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small143.png
+  artifactKey: Guid(32a494a36ad7e04408b10e39cdf101a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small143.png using Guid(32a494a36ad7e04408b10e39cdf101a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99a7bf650491c5b90fcc5cfbf641490') in 0.016213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small137.png
+  artifactKey: Guid(2331914f65cbd9949adaf5e35be99616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small137.png using Guid(2331914f65cbd9949adaf5e35be99616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406bf061ba46ba432f564d2e2ef9918e') in 0.017645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small149.png
+  artifactKey: Guid(86e84b52f074106408b5eb2a985d15b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small149.png using Guid(86e84b52f074106408b5eb2a985d15b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68eddb6546367871bc2fc6b4220b08d9') in 0.016267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small164.png
+  artifactKey: Guid(a7c6171b362350e41bbbf70f535de302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small164.png using Guid(a7c6171b362350e41bbbf70f535de302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9488b4be375f5353135b81d29eb673') in 0.014238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small177.png
+  artifactKey: Guid(b3f5f6f18437f2c4a832edb6d726b9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small177.png using Guid(b3f5f6f18437f2c4a832edb6d726b9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f2fad01de563493ed37ccb17af3e1a') in 0.015042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small162.png
+  artifactKey: Guid(cb7a1ceb794a2dc438c9239c9830991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small162.png using Guid(cb7a1ceb794a2dc438c9239c9830991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592d503d9fe51dca9afc5dc548f03304') in 0.015558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small163.png
+  artifactKey: Guid(68a2524f86ff4ef4eb66780e65f7a4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small163.png using Guid(68a2524f86ff4ef4eb66780e65f7a4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa16095850744dbca33ec83b97ed909') in 0.013808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small175.png
+  artifactKey: Guid(a9be7b7a5b5870f4a92dbb05ff5e3819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small175.png using Guid(a9be7b7a5b5870f4a92dbb05ff5e3819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2226178c5a1a3de2edd485514e62bbe6') in 0.015784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small182.png
+  artifactKey: Guid(a53b0ec810e3fc847af3f3537acf7ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small182.png using Guid(a53b0ec810e3fc847af3f3537acf7ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e5da0c3f781b60122826ed490d0382') in 0.015696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small151.png
+  artifactKey: Guid(7f58a928a03493b45a618cab7d4e05a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small151.png using Guid(7f58a928a03493b45a618cab7d4e05a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d8d170d0fa2151d732d73f1a600214') in 0.008903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small183.png
+  artifactKey: Guid(9fc17cf3a04789148850b004f1901f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small183.png using Guid(9fc17cf3a04789148850b004f1901f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02575f1792a3b70e3b05dacc7491a1bf') in 0.015935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small171.png
+  artifactKey: Guid(62fd778a61e819c4bb952860d04f78ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small171.png using Guid(62fd778a61e819c4bb952860d04f78ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11458a7eaa49105c75b430faa413b44c') in 0.017994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small166.png
+  artifactKey: Guid(e64c45705682c7b48aea1ecec4ba02d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small166.png using Guid(e64c45705682c7b48aea1ecec4ba02d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4245def86acbebf2ec6f63b7d0f01624') in 0.018928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small161.png
+  artifactKey: Guid(0f0125872a1f9bc43a5427d106b04f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small161.png using Guid(0f0125872a1f9bc43a5427d106b04f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e75a7834ab9e3f7348ff229e8f93c1') in 0.017391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small155.png
+  artifactKey: Guid(b13efb00794d1b74f9af59a2d6c81389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small155.png using Guid(b13efb00794d1b74f9af59a2d6c81389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec536a4bbc7aaceddc4b54c8fb5db3d') in 0.015613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small157.png
+  artifactKey: Guid(cdf150147d60f224990ab142375ef2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small157.png using Guid(cdf150147d60f224990ab142375ef2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7594bf043e25e06ca8b14d881ac7f9e') in 0.014878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.739370 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small185.png
+  artifactKey: Guid(563b0ce82a2303f49a3af6e858718ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small185.png using Guid(563b0ce82a2303f49a3af6e858718ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea84f7d642d30c7aa6a6f27b6d64976') in 0.018400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small195.png
+  artifactKey: Guid(cf2ed14c599e6d04c9e44e6eae6c2de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small195.png using Guid(cf2ed14c599e6d04c9e44e6eae6c2de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa32bdc1040e5d97467914c1d0adb10') in 0.017779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small193.png
+  artifactKey: Guid(c5758b03e39994148b472c64aed450df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small193.png using Guid(c5758b03e39994148b472c64aed450df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a68c6128265186e0d955049bcd0cb4') in 0.016626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small218.png
+  artifactKey: Guid(f4434eb9ff6bc8f4692c98dbe5336f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small218.png using Guid(f4434eb9ff6bc8f4692c98dbe5336f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dffc70549242268d1ece7e21e603be') in 0.018058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small211.png
+  artifactKey: Guid(ffa56532dbb1ee34eb73cd2377d8487f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small211.png using Guid(ffa56532dbb1ee34eb73cd2377d8487f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20113f25ea41e2ede7019c8db02e7f4') in 0.017664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small217.png
+  artifactKey: Guid(81acc0e90d33cf94a9490c2a390838a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small217.png using Guid(81acc0e90d33cf94a9490c2a390838a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ded84423d60a62edbd72accf92a3f33') in 0.017917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small228.png
+  artifactKey: Guid(8603fa21169b4a442af93494066323f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small228.png using Guid(8603fa21169b4a442af93494066323f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cd50c0164bc711936dc745d6973f05') in 0.018261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small221.png
+  artifactKey: Guid(287f83b3dab0aa44f92ed339619427db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small221.png using Guid(287f83b3dab0aa44f92ed339619427db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f2e8555963f3b44ecad6c95f4c7871') in 0.019130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small227.png
+  artifactKey: Guid(7c01d2a11581d084ba68268a42f019fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small227.png using Guid(7c01d2a11581d084ba68268a42f019fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fb1bd4f1ddef9710d5922decf47996') in 0.020924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small198.png
+  artifactKey: Guid(71afeec55385e88449d59868a8488af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small198.png using Guid(71afeec55385e88449d59868a8488af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966067fa39a4eb0a8e091a36a0a11272') in 0.018746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small189.png
+  artifactKey: Guid(ab0bdc7122abe4d4facad5fa27339ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small189.png using Guid(ab0bdc7122abe4d4facad5fa27339ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa0d813f6b8ff91f18416822e468c34') in 0.018558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small199.png
+  artifactKey: Guid(b2e59ceba9f37a146b4df6c13875f329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small199.png using Guid(b2e59ceba9f37a146b4df6c13875f329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915331321c0337b0cf5f9d8d66098458') in 0.015979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small200.png
+  artifactKey: Guid(76b23a7bac152ca4898ee47a4c1df1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small200.png using Guid(76b23a7bac152ca4898ee47a4c1df1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71ad07cfce52f748b3228f7d83b227c') in 0.016523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small206.png
+  artifactKey: Guid(fc95f668fd1131b40a6b43a96671fe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small206.png using Guid(fc95f668fd1131b40a6b43a96671fe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e63c4b2cf7757e4b7af8471b7140088') in 0.019413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small231.png
+  artifactKey: Guid(2b08ee848ff3a3b438e13946da34a6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small231.png using Guid(2b08ee848ff3a3b438e13946da34a6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b2d3feccec57d63369b9010ff50848') in 0.018163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small188.png
+  artifactKey: Guid(857742a80527b4f478932402fb5808c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small188.png using Guid(857742a80527b4f478932402fb5808c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7948ea9bf442ec8366cc95b3508c24db') in 0.018480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small205.png
+  artifactKey: Guid(05520fa3b24e81840a8a2e884ab687bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small205.png using Guid(05520fa3b24e81840a8a2e884ab687bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0823a9a536a770cdb3e1b16c585cee') in 0.021319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.053692 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small236.png
+  artifactKey: Guid(8f788b2005af3d043a13a306a0d59487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small236.png using Guid(8f788b2005af3d043a13a306a0d59487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6070d27561661b9454d187a50ea4001') in 0.018344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small250.png
+  artifactKey: Guid(f81c6fcf63ce5224eb2da76e691dc069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small250.png using Guid(f81c6fcf63ce5224eb2da76e691dc069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe226b6e602b8f642b4fe6a32cf78b80') in 0.018657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small247.png
+  artifactKey: Guid(b668df453278ddd4db7f1feeedfc3110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small247.png using Guid(b668df453278ddd4db7f1feeedfc3110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6052a02cf7346193004a4993a5e07546') in 0.018476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small248.png
+  artifactKey: Guid(1ca1c6973354bda40af98550bd5a73b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small248.png using Guid(1ca1c6973354bda40af98550bd5a73b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20109cb19a3b14063dee5c4c6185d218') in 0.019354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small276.png
+  artifactKey: Guid(2c070ad1c127852438aeab6456805cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small276.png using Guid(2c070ad1c127852438aeab6456805cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e47d5ae45a9d2c5d23194a28e98e1b7') in 0.016416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small284.png
+  artifactKey: Guid(daf0b020f01711741a7cfe2916177f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small284.png using Guid(daf0b020f01711741a7cfe2916177f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d68267b39c627771b4c3a39ce65dd0a') in 0.017945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small297.png
+  artifactKey: Guid(706f3424ee0c7c64cb22e0b50f7e9d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small297.png using Guid(706f3424ee0c7c64cb22e0b50f7e9d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740d5171f5db56a9ea54ecad9590e7d2') in 0.017705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small301.png
+  artifactKey: Guid(5f40e82d648515e40ac0ba436267658f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small301.png using Guid(5f40e82d648515e40ac0ba436267658f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5c1d9a389583bdfaa963df7cc236da') in 0.017388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small271.png
+  artifactKey: Guid(41397698ff5da954f8aa97df0687bb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small271.png using Guid(41397698ff5da954f8aa97df0687bb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b147f826b094196400357ce50dc635d2') in 0.019245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small303.png
+  artifactKey: Guid(b98f4637a947ad94c9983ad9eff06283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small303.png using Guid(b98f4637a947ad94c9983ad9eff06283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba488d84eb2d98052a3914d4c4f08b2') in 0.020555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small277.png
+  artifactKey: Guid(f9354f40deb992d43a77fc7e8a857917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small277.png using Guid(f9354f40deb992d43a77fc7e8a857917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc09cba5b31870c45449489a944e4a52') in 0.021040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small298.png
+  artifactKey: Guid(234aa078475970147a1ed8c44f0f767c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small298.png using Guid(234aa078475970147a1ed8c44f0f767c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dc9d4788fbbc5c4fe268c102fbcae8') in 0.018449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small262.png
+  artifactKey: Guid(9dbfbca49427a484189066f3567ad545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small262.png using Guid(9dbfbca49427a484189066f3567ad545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ad492c4628ec5d3e8b173171295c64') in 0.018628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small255.png
+  artifactKey: Guid(72385940d3ba2a54daf10ef46d8ca2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small255.png using Guid(72385940d3ba2a54daf10ef46d8ca2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24044f4835194cee97e05a30118ca289') in 0.014287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small300.png
+  artifactKey: Guid(270254c47793cee4481e2901179c3d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small300.png using Guid(270254c47793cee4481e2901179c3d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaf650ff1c6c1c80a505938a924555b') in 0.017348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small244.png
+  artifactKey: Guid(6bdc3806f04fbc146b92fbebafe21b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small244.png using Guid(6bdc3806f04fbc146b92fbebafe21b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b83ab10de060cd27468eb1b887c094') in 0.018045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small256.png
+  artifactKey: Guid(fa99ed81326ba3349b38e5547b4d4bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small256.png using Guid(fa99ed81326ba3349b38e5547b4d4bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cd6d532881fb1be102a5719df97a5f') in 0.017100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small263.png
+  artifactKey: Guid(aa8d6cad8b035ba4298481d270487fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small263.png using Guid(aa8d6cad8b035ba4298481d270487fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b45e6e344f558684b6ae292b3ea581') in 0.018211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small273.png
+  artifactKey: Guid(f9f41874ba1546a4da64927887c8bbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small273.png using Guid(f9f41874ba1546a4da64927887c8bbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73764ce52e6ec9210889d514d4c96f89') in 0.016783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small268.png
+  artifactKey: Guid(e1ec9f4113b43724fa1b04b8cfdf6061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small268.png using Guid(e1ec9f4113b43724fa1b04b8cfdf6061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b75795533d6c73e3e79b39ed7bcd2bf') in 0.017109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small272.png
+  artifactKey: Guid(a6c20ebc41a279f42bc0165b13af6954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small272.png using Guid(a6c20ebc41a279f42bc0165b13af6954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08354c26f7b63bc1fb3e67f8df273b07') in 0.016596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small291.png
+  artifactKey: Guid(d55cddf78feae0341bcf882322b57a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small291.png using Guid(d55cddf78feae0341bcf882322b57a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbaf51025ef77025ce70c919513b9a2') in 0.017412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.558332 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small304.png
+  artifactKey: Guid(f2e96c7af5b94c14f92aa384a8857fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small304.png using Guid(f2e96c7af5b94c14f92aa384a8857fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cc6dbf5ef2b646bb2e66d1f3131861') in 0.018754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small317.png
+  artifactKey: Guid(daa2975f73e976640a94c08ca67fab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small317.png using Guid(daa2975f73e976640a94c08ca67fab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98694eb90f10a35f0e15c6436913a9e8') in 0.018947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small330.png
+  artifactKey: Guid(8dedad08d24c6ba4c826ad0aae897cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small330.png using Guid(8dedad08d24c6ba4c826ad0aae897cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58195dc90d35cd4444ffa01e44005bd7') in 0.019228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small350.png
+  artifactKey: Guid(9c21618f7b07ea2478153b810c73718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small350.png using Guid(9c21618f7b07ea2478153b810c73718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc8478d0a69916b37ae3751470f9001') in 0.016720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small338.png
+  artifactKey: Guid(ea04d3d0c43f7d34bae2ccd25207c63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small338.png using Guid(ea04d3d0c43f7d34bae2ccd25207c63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4cef414b8f8f1bdeba1bcb69a80527') in 0.019672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small345.png
+  artifactKey: Guid(c72f9ab399b80db4790fb45ff010686e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small345.png using Guid(c72f9ab399b80db4790fb45ff010686e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb96f0278097903b3521f687525f80b') in 0.017055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small354.png
+  artifactKey: Guid(f9a2bcb1bff832d4daceffc865f533b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small354.png using Guid(f9a2bcb1bff832d4daceffc865f533b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19aeebe2a3fc4938a76375748a120e6e') in 0.018306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small359.png
+  artifactKey: Guid(7f75e52420880884f9103bcd848070e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small359.png using Guid(7f75e52420880884f9103bcd848070e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9160d2b12e465977cd2e00465f83a4') in 0.016172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small362.png
+  artifactKey: Guid(3978a518e36ea1f409d28349c1937e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small362.png using Guid(3978a518e36ea1f409d28349c1937e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a508fde1c5a88b1e115b720dfd7c05') in 0.016333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small335.png
+  artifactKey: Guid(2c8fb8a87535acf46a75c09de99bebe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small335.png using Guid(2c8fb8a87535acf46a75c09de99bebe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5c981e72c8804c49cc7b4993819a8f') in 0.017539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small326.png
+  artifactKey: Guid(558e48cd2ee5d764db66a6a7205390df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small326.png using Guid(558e48cd2ee5d764db66a6a7205390df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3cc46b4d5f8ced4166a47e2b96a8d1') in 0.017430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small327.png
+  artifactKey: Guid(2b20062f91365b847bf9e6cb669e0fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small327.png using Guid(2b20062f91365b847bf9e6cb669e0fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa939bcbb1734b9f76fedb6c3757539') in 0.017292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small337.png
+  artifactKey: Guid(5595ad02a91428c4999003a5be1dd51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small337.png using Guid(5595ad02a91428c4999003a5be1dd51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c585acb063cfa3c9535f4e529b59cb5') in 0.017288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small325.png
+  artifactKey: Guid(7db6ccb74c4782c41b491b239c101d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small325.png using Guid(7db6ccb74c4782c41b491b239c101d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2cc090bf3ab902d6a6706c3563b0c0') in 0.016528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small367.png
+  artifactKey: Guid(f985b9adc17861449a86691c65c08251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small367.png using Guid(f985b9adc17861449a86691c65c08251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180df6375d78557946f55b5dafb5b11d') in 0.017289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small368.png
+  artifactKey: Guid(138da61243ec88f4ca9a40e067a34591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small368.png using Guid(138da61243ec88f4ca9a40e067a34591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5393dbe0ae7ee78f14b289465326cac6') in 0.020974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small319.png
+  artifactKey: Guid(19b5b8f2e96e00547b706ecc1194efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small319.png using Guid(19b5b8f2e96e00547b706ecc1194efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049fc1e3e29f120ca7ae1388f90204c6') in 0.018908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small328.png
+  artifactKey: Guid(6972cf75e10ad0f40bb609517cc2f0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small328.png using Guid(6972cf75e10ad0f40bb609517cc2f0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72f740c93fdc4cbf3fca2d090d4a639') in 0.018706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small308.png
+  artifactKey: Guid(bcaa93d2228e7eb43a1b5997dcd9d464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small308.png using Guid(bcaa93d2228e7eb43a1b5997dcd9d464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258185f5c050ed9f9b742f1b3e791977') in 0.017891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small311.png
+  artifactKey: Guid(6529d9d3ee500cf44a2f82fe1528500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small311.png using Guid(6529d9d3ee500cf44a2f82fe1528500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3108dfd7cf518ab23106c3c4a29d2b') in 0.015284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small348.png
+  artifactKey: Guid(2f3d26dc572bc5f4e930232755a30125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small348.png using Guid(2f3d26dc572bc5f4e930232755a30125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6ec4314a216b94a227d592dad42cdf') in 0.017603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small307.png
+  artifactKey: Guid(f896ff1d2f56802489ff3225bd8a55c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small307.png using Guid(f896ff1d2f56802489ff3225bd8a55c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddc6863c509b41dc4f65d01e62ff284') in 0.016526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small352.png
+  artifactKey: Guid(0ba342947347f054b9c49b6f214ab675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small352.png using Guid(0ba342947347f054b9c49b6f214ab675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6273ab86441de20dac2f4d6a79fd972') in 0.015924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.737500 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small372.png
+  artifactKey: Guid(69ac3ede3dae9574f8dca36f59ad2d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small372.png using Guid(69ac3ede3dae9574f8dca36f59ad2d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7858609700e11d72c6a83d1170df0d2') in 0.024431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small376.png
+  artifactKey: Guid(8527402bff5550e48b049a65e823470a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small376.png using Guid(8527402bff5550e48b049a65e823470a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2747e84efec9f5d5428cc1f820899d05') in 0.020011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small384.png
+  artifactKey: Guid(9ef7195290c61e34785092017c97c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small384.png using Guid(9ef7195290c61e34785092017c97c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e6bbfbe8cf52abfda1bc9de8194cf8') in 0.016679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small389.png
+  artifactKey: Guid(3ea5a4651ceda4042a2fd276f3e29d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small389.png using Guid(3ea5a4651ceda4042a2fd276f3e29d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76498d7baee4e98fcba1d22920badbba') in 0.019563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small405.png
+  artifactKey: Guid(0cb373eaa5c825040ad2d4c64826e1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small405.png using Guid(0cb373eaa5c825040ad2d4c64826e1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a2e0d52c6e70a92287e4e6e26d2f98') in 0.018819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small414.png
+  artifactKey: Guid(7614a7a1bae811345a4df87258b8fd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small414.png using Guid(7614a7a1bae811345a4df87258b8fd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd68fcafdfe9c88487042a7a32ebbbf') in 0.019045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small417.png
+  artifactKey: Guid(c1c6c267ce8103c4fad0f1826d9cb4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small417.png using Guid(c1c6c267ce8103c4fad0f1826d9cb4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adf47437ce8bf0a679c7429006b14cd') in 0.017148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small398.png
+  artifactKey: Guid(0ce5a96bfef8aa941b93a46e469fdbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small398.png using Guid(0ce5a96bfef8aa941b93a46e469fdbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67f5ec64e30600ca300b7d311c65788') in 0.018446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small406.png
+  artifactKey: Guid(39b3769dcf9817c46ba1116f1ba97aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small406.png using Guid(39b3769dcf9817c46ba1116f1ba97aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd45d85deb88989af0ddfaf505b3d17') in 0.017338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small402.png
+  artifactKey: Guid(6af7a4f29819797498de5733140615a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small402.png using Guid(6af7a4f29819797498de5733140615a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082397c84bf0ed26d614edc9efb4cfeb') in 0.020742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small388.png
+  artifactKey: Guid(82e24765e5d15894bb65b049e2794110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small388.png using Guid(82e24765e5d15894bb65b049e2794110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fd19d5be8f442a62c26b76a86604a5') in 0.021826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small385.png
+  artifactKey: Guid(5fff94e867355a744b5e90da3d1f94f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small385.png using Guid(5fff94e867355a744b5e90da3d1f94f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c467757a8d536578267fa08a35cd59b') in 0.018125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small397.png
+  artifactKey: Guid(544e6b9789620f84493de3d3432aa22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small397.png using Guid(544e6b9789620f84493de3d3432aa22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4072c98a52cdc874e80169c049d605f8') in 0.020721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small382.png
+  artifactKey: Guid(0c882b7c61b98c044ba6b0f69556610f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small382.png using Guid(0c882b7c61b98c044ba6b0f69556610f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d9999c82733f4fa9970345c3d2212d') in 0.017026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small412.png
+  artifactKey: Guid(12195a60523dcf14fabd7fc6258ecb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small412.png using Guid(12195a60523dcf14fabd7fc6258ecb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c527102738c5bd044df1004a0d5529a4') in 0.015631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small378.png
+  artifactKey: Guid(7c665afc1ac52a142939f189c6d23fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small378.png using Guid(7c665afc1ac52a142939f189c6d23fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7a82ad37687ccdb1741aede7592e17') in 0.018040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small392.png
+  artifactKey: Guid(fb06d9c10b0c4024bb0032fb8e705ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small392.png using Guid(fb06d9c10b0c4024bb0032fb8e705ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52219277819a69787e092f6996a1923') in 0.016966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.150781 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small423.png
+  artifactKey: Guid(a586ae4e9b1450d46b0d88ca1ecf192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small423.png using Guid(a586ae4e9b1450d46b0d88ca1ecf192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875fec021f69ba358bacef794bfac801') in 0.015606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small434.png
+  artifactKey: Guid(53a9d34e719652c42a24e771995c245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small434.png using Guid(53a9d34e719652c42a24e771995c245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2428e289417e58decef85ea1437a096') in 0.013974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small439.png
+  artifactKey: Guid(55d666d3d54313c40a4ea3eb0d580485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small439.png using Guid(55d666d3d54313c40a4ea3eb0d580485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fa2f65c97d38e61b21c70d4fe2175f') in 0.016725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small432.png
+  artifactKey: Guid(1360cc2de5193c8448ec6c93b2c518ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small432.png using Guid(1360cc2de5193c8448ec6c93b2c518ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f67a94f6ff33af254ec923749ae74b') in 0.015069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small453.png
+  artifactKey: Guid(9ddf4ca3f68de074ca127de09b1623bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small453.png using Guid(9ddf4ca3f68de074ca127de09b1623bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9582e8bd79a348d26f8c560aa2741ac5') in 0.016842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small446.png
+  artifactKey: Guid(c4f0c2a4c33466f4c9d3cfac67247074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small446.png using Guid(c4f0c2a4c33466f4c9d3cfac67247074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc1082ffa540dd3139c3133db3bdeb7') in 0.015242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small450.png
+  artifactKey: Guid(f2caeb76fd626204bbaacbd757760045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small450.png using Guid(f2caeb76fd626204bbaacbd757760045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84baf42b5303099a5d6652c96da04ee') in 0.016312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small452.png
+  artifactKey: Guid(09b341982c36d7f41aa3e1818d190dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small452.png using Guid(09b341982c36d7f41aa3e1818d190dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bdf381ec62c25b56eab6e3effb8e83') in 0.013624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small471.png
+  artifactKey: Guid(e6d577cd797f5a24fba41d73402b3169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small471.png using Guid(e6d577cd797f5a24fba41d73402b3169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839473f3ed7d84d9655823b7f4a0c2bd') in 0.014765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small444.png
+  artifactKey: Guid(7617faac977778e40b0a0cde2d45f057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small444.png using Guid(7617faac977778e40b0a0cde2d45f057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3aabe02ff918850c6de64b19f61a897') in 0.015870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small459.png
+  artifactKey: Guid(f17dffd47f759bb458d69d5067d663ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small459.png using Guid(f17dffd47f759bb458d69d5067d663ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b77ead463198472008c675ffd8c3c3') in 0.015638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small469.png
+  artifactKey: Guid(e22465af2040bb44fbfebe263513885b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small469.png using Guid(e22465af2040bb44fbfebe263513885b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41795569b00a16ed1fb662705a180a25') in 0.016193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small470.png
+  artifactKey: Guid(83c009cfa8be2c6479e424e9153d5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small470.png using Guid(83c009cfa8be2c6479e424e9153d5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e9ca034a766dddec33f219f7c601f0') in 0.015037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small442.png
+  artifactKey: Guid(99336909e9c96ee43a52703ad4697810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small442.png using Guid(99336909e9c96ee43a52703ad4697810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e851460222911db09e8212b3c297ff7') in 0.016128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small433.png
+  artifactKey: Guid(184d8c0bb83daef4ebe01ff68548e158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small433.png using Guid(184d8c0bb83daef4ebe01ff68548e158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60d4a6967d3a489fa48105b70356a07') in 0.015800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small455.png
+  artifactKey: Guid(43be25366f84cc842af7a19ec0d53c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small455.png using Guid(43be25366f84cc842af7a19ec0d53c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bc5a66cf4e8f287d0f7ca2f65567fd') in 0.015510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small464.png
+  artifactKey: Guid(2c889922994fb9d4e92e705ff02deba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small464.png using Guid(2c889922994fb9d4e92e705ff02deba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eda8d6b46791eba51e83447ca16bb95') in 0.016565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.854515 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small474.png
+  artifactKey: Guid(fecf2c928c3fb8b4995f283d7853ec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small474.png using Guid(fecf2c928c3fb8b4995f283d7853ec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8582d8aa2391c2722db406012529137d') in 0.015033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small488.png
+  artifactKey: Guid(f35adb1406a9bbe49a6f455a103610b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small488.png using Guid(f35adb1406a9bbe49a6f455a103610b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6832e08b54e653627dbb036ccc5c346b') in 0.017153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small489.png
+  artifactKey: Guid(6104049ddb5ffa742a8ac1bb4518cc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small489.png using Guid(6104049ddb5ffa742a8ac1bb4518cc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c55974c3ffd5588ccaf4c8e0249064') in 0.014649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small500.png
+  artifactKey: Guid(1c72c940323dc7e4894f0f4513d35eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small500.png using Guid(1c72c940323dc7e4894f0f4513d35eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180b3daacd9d81a3008acd754ab49ef3') in 0.016064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small497.png
+  artifactKey: Guid(95851071da8b9bf4c846fb4afd613e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small497.png using Guid(95851071da8b9bf4c846fb4afd613e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c971c61d89879bd3e17e1ebdd600b133') in 0.015109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small503.png
+  artifactKey: Guid(c1602a30205cfbe4b8e9cbff3d9be34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small503.png using Guid(c1602a30205cfbe4b8e9cbff3d9be34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9b33337639de3618ff2280549a3512') in 0.016715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small519.png
+  artifactKey: Guid(b25e5bed94f84aa4f9d8eb465baffed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small519.png using Guid(b25e5bed94f84aa4f9d8eb465baffed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b0972e1e281a79bdec41ed759433ce') in 0.017007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small513.png
+  artifactKey: Guid(21c63dc655a1224458206a8265ee6303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small513.png using Guid(21c63dc655a1224458206a8265ee6303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6ba008cc8544ef624ca12c6928fe96') in 0.018378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small524.png
+  artifactKey: Guid(7f7b12b5583bc1d44913695371240959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small524.png using Guid(7f7b12b5583bc1d44913695371240959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a3aff74b0a56499162d15208752979') in 0.016274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small523.png
+  artifactKey: Guid(13c09ab133c9a8944a3bcabe87410936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small523.png using Guid(13c09ab133c9a8944a3bcabe87410936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfce2a646b52597adf5c1da22c9fe15') in 0.016261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small499.png
+  artifactKey: Guid(01b3582e2a177da4399506d595ff8993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small499.png using Guid(01b3582e2a177da4399506d595ff8993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99069605f9ced84d51180f3dc3b6be6') in 0.015397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small508.png
+  artifactKey: Guid(e897618ef641d344d95443cf1842191b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small508.png using Guid(e897618ef641d344d95443cf1842191b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e90d3a8ef39ecd5f263595fa95b2e7f') in 0.018378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small507.png
+  artifactKey: Guid(f89d117300919ea4e979ab45649a79df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small507.png using Guid(f89d117300919ea4e979ab45649a79df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3642a3be264ed8d2d04dd2314dc1183a') in 0.016333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small518.png
+  artifactKey: Guid(94340c6bdbdbbff45b7a362b2ee399bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small518.png using Guid(94340c6bdbdbbff45b7a362b2ee399bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33561650a366df158b4bc18af4be3465') in 0.016151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small511.png
+  artifactKey: Guid(725c211384a00854683799e6fca3153c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small511.png using Guid(725c211384a00854683799e6fca3153c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff5617e3615fc06f4d3c1f8119101b0') in 0.016328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small516.png
+  artifactKey: Guid(68c5d12d44d6460489b74f1e299d10bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small516.png using Guid(68c5d12d44d6460489b74f1e299d10bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc651812e53fa72369c09cedd5fcef7') in 0.015668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small514.png
+  artifactKey: Guid(3ca65cbd678733342817f475409febd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small514.png using Guid(3ca65cbd678733342817f475409febd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02fba037072f07ad20e9adc1ac09903') in 0.017040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.697543 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small525.png
+  artifactKey: Guid(9a191ae47bee0b54294b3d27b54ba68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small525.png using Guid(9a191ae47bee0b54294b3d27b54ba68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d787474f8a4f40218994bf5d0adfa6e') in 0.017498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small540.png
+  artifactKey: Guid(2dbd5352d4cbdaf48b496b3bf6604e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small540.png using Guid(2dbd5352d4cbdaf48b496b3bf6604e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f194f170e4c88e3c5b79aa2481ed729f') in 0.015392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small550.png
+  artifactKey: Guid(25ee9b874b6a4a24f9f39bab3625f642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small550.png using Guid(25ee9b874b6a4a24f9f39bab3625f642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad6bf575fec32904bd8223d118ec5a6') in 0.013638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small543.png
+  artifactKey: Guid(2732a009b5288084383a4db6727ed236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small543.png using Guid(2732a009b5288084383a4db6727ed236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b9860fa801987d024fadfa283629a1') in 0.014379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small557.png
+  artifactKey: Guid(71d0899f0a429004385e905f8447b2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small557.png using Guid(71d0899f0a429004385e905f8447b2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ccb86691dd9ef6ce23c0c7dfd87ff5') in 0.014270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small551.png
+  artifactKey: Guid(274da7c952fa37c43bd17a3465d12d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small551.png using Guid(274da7c952fa37c43bd17a3465d12d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b39d083bd9ffd5db22b1bfd6bc5feb') in 0.014954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small532.png
+  artifactKey: Guid(950a7decbc169c341ab4cab9773156ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small532.png using Guid(950a7decbc169c341ab4cab9773156ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3867ba859f9b3e1028a7af427b69dda1') in 0.014148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small564.png
+  artifactKey: Guid(468ac67bd5cce424d8dde8d0bb8d5db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small564.png using Guid(468ac67bd5cce424d8dde8d0bb8d5db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b17cc4084debfd7b384706e0daa3d6') in 0.014360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small570.png
+  artifactKey: Guid(65db817f6681ba04a94292a1757bf843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small570.png using Guid(65db817f6681ba04a94292a1757bf843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a130a7399de237f4feef425ea1c863c') in 0.014977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small574.png
+  artifactKey: Guid(28ed59321b831c14f8ed85c20239cf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small574.png using Guid(28ed59321b831c14f8ed85c20239cf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280c54844c7ad0cafeee84f09cb656c9') in 0.015111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small534.png
+  artifactKey: Guid(f71cee36f09bdc945bd5f42592ef9e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small534.png using Guid(f71cee36f09bdc945bd5f42592ef9e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab9d971db8852fc5e09bbd553e74026') in 0.014051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small575.png
+  artifactKey: Guid(f4f685f8f3c023847a7ec09980a14488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small575.png using Guid(f4f685f8f3c023847a7ec09980a14488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29ba05244879bd5ccdec294360daf91') in 0.015411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small565.png
+  artifactKey: Guid(287fe1553b791c540a7b0cc2ba482a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small565.png using Guid(287fe1553b791c540a7b0cc2ba482a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7470e5ae6d1614e90c8e339c737821c2') in 0.014566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small566.png
+  artifactKey: Guid(9eb96f8aa26f81f4c8441947e4d34180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small566.png using Guid(9eb96f8aa26f81f4c8441947e4d34180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad11c9b98ab9eaac2411793da3280278') in 0.014058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small548.png
+  artifactKey: Guid(59f4039acfee4a848b34dcd8af772737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small548.png using Guid(59f4039acfee4a848b34dcd8af772737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f5c4cb1273883e07cc8655b3dea1fb') in 0.014910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small547.png
+  artifactKey: Guid(6eaf976542c1d9749addd0b5acb1eba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small547.png using Guid(6eaf976542c1d9749addd0b5acb1eba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926e90b3e9ae5f8e28a275dfdeae8adf') in 0.014428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel NSO - MDP/Animation - MDP/Small560.png
+  artifactKey: Guid(62e32d432636bab4f895e9d2a0ee7cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel NSO - MDP/Animation - MDP/Small560.png using Guid(62e32d432636bab4f895e9d2a0ee7cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc117b6ca5b7294b1e935cba5681a90a') in 0.014271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5957.051550 seconds.
+  path: Assets/Asset Ninja-DoanhMDP/NS Crack DoanhMDP
+  artifactKey: Guid(8c517e8af1362db46b606b34f3efcd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Ninja-DoanhMDP/NS Crack DoanhMDP using Guid(8c517e8af1362db46b606b34f3efcd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2aed1cffbda28c7cdadd6a01a63b51a') in 0.006665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.567386 seconds.
+  path: Assets/Asset Ninja-DoanhMDP/NS Crack DoanhMDP/PNG
+  artifactKey: Guid(3a25af1f7aad0bd42a37ff66a3b3e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Ninja-DoanhMDP/NS Crack DoanhMDP/PNG using Guid(3a25af1f7aad0bd42a37ff66a3b3e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf83048ad13fe9fd23b9e538170835f') in 0.000483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 99.831462 seconds.
+  path: Assets/NS Crack DoanhMDP/amthanh
+  artifactKey: Guid(5d94c2f8dabec634fbf73118385e0ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/amthanh using Guid(5d94c2f8dabec634fbf73118385e0ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2101f00048f7bcc1dc71c5d8e89a936d') in 0.001672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.908280 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG
+  artifactKey: Guid(5d8b6417b3c9c4e4bac71d7c2d3b119e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG using Guid(5d8b6417b3c9c4e4bac71d7c2d3b119e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcea37836860c267b12672cb7967e2e') in 0.000438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.060533 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/trung1.png
+  artifactKey: Guid(28a38249f30627c41a8cc2a50cd465d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/trung1.png using Guid(28a38249f30627c41a8cc2a50cd465d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446bc821fdae7995fa788503e96b1a50') in 0.102483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.973036 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg
+  artifactKey: Guid(ecbc23fb4c8162f4ab326344a7be69cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg using Guid(ecbc23fb4c8162f4ab326344a7be69cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf87ee104e564ffc94a07ff969bae33') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.068791 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg00.png
+  artifactKey: Guid(4827aa077bfba734896829c4f7ebb0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg00.png using Guid(4827aa077bfba734896829c4f7ebb0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77169606387c1daa6583b20499c30777') in 0.020203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg06.png
+  artifactKey: Guid(51f59815c62f7cb4292bc6d22b4942c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg06.png using Guid(51f59815c62f7cb4292bc6d22b4942c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd72583b32c26e5b24220b12d2c67500') in 0.019468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg20.png
+  artifactKey: Guid(70d613e6f90376b489d79cb16f3eda8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg20.png using Guid(70d613e6f90376b489d79cb16f3eda8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6fc1eb4cfb313025fd6f7a499c0516') in 0.021082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/sun1.png
+  artifactKey: Guid(52569b1d40b1fde4cbc7f87b8e8bdf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/sun1.png using Guid(52569b1d40b1fde4cbc7f87b8e8bdf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9301094c2e0a6ec650ba10c0caa5bf') in 0.024234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg04.png
+  artifactKey: Guid(0ed269ad9bbf188439312376814532d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg04.png using Guid(0ed269ad9bbf188439312376814532d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96ae2015717e26cc95e3a842925eaf2') in 0.025677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/cl2.png
+  artifactKey: Guid(843fe3e7804408f41a546812bd5ee75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/cl2.png using Guid(843fe3e7804408f41a546812bd5ee75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3926882dee501834f4aab3f172be46') in 0.022672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg30.png
+  artifactKey: Guid(836362e15af7a394e8b6098fe75e6008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg30.png using Guid(836362e15af7a394e8b6098fe75e6008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e38733589fb98b7316b6fbe18065a3c') in 0.028307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg115.png
+  artifactKey: Guid(add13d12d702b064a934dea9d2e0f557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg115.png using Guid(add13d12d702b064a934dea9d2e0f557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69a52f10d75ed15c9ad0af025aa920d') in 0.030301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg013.png
+  artifactKey: Guid(9f9a3fbcd508459468425dfd64de167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg013.png using Guid(9f9a3fbcd508459468425dfd64de167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584b742e0c1c9b9b351fc538362e8ad9') in 0.026936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg33.png
+  artifactKey: Guid(2f3e9b9d27ac25f459fd38e7f2465f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg33.png using Guid(2f3e9b9d27ac25f459fd38e7f2465f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55ca8e348758131544168fbee4aa335') in 0.019016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg16.png
+  artifactKey: Guid(89605be031c27c3469dd4c13d3158b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg16.png using Guid(89605be031c27c3469dd4c13d3158b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47b4f43281ec95b6289aafcfe98ac19') in 0.020108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg32.png
+  artifactKey: Guid(b0bc709dfd5ed3b47ae26a7966f29dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg32.png using Guid(b0bc709dfd5ed3b47ae26a7966f29dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd900cd715ee3628c331c452e96e9f75f') in 0.019476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg12.png
+  artifactKey: Guid(160f362771f9a6a488bbcc468409ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg12.png using Guid(160f362771f9a6a488bbcc468409ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f76359965c9c321cf917d684066296') in 0.021368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg28.png
+  artifactKey: Guid(6750550edb75c0d449e3a891b2cd72e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg28.png using Guid(6750550edb75c0d449e3a891b2cd72e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb0d55d634a28b6df58f946833db82d') in 0.019553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/cl0.png
+  artifactKey: Guid(3de60f847f4275a43a2d41f1d993e42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/cl0.png using Guid(3de60f847f4275a43a2d41f1d993e42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5f1d43e5a7cb23e1ccb3e221d4b04a') in 0.019085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg31.png
+  artifactKey: Guid(2b522c9dd5631434f83ce8500f75b91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg31.png using Guid(2b522c9dd5631434f83ce8500f75b91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f0d8f807fb9184b94c2c8230244420') in 0.018956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg34.png
+  artifactKey: Guid(5c7e1c78700d8ca43a1f9aaadb2f4af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg34.png using Guid(5c7e1c78700d8ca43a1f9aaadb2f4af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a796c52e74e73a3cb67b077c0cf16a1') in 0.018527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg05.png
+  artifactKey: Guid(d83645a2f6b979241b0ce549e6d2be91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg05.png using Guid(d83645a2f6b979241b0ce549e6d2be91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef2ae42fb91a22431510ad5d5f1383c') in 0.018561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg111.png
+  artifactKey: Guid(2d1efe2f055d5cb40a1a717a50e75b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg111.png using Guid(2d1efe2f055d5cb40a1a717a50e75b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041444a8b4c542c31c1c79042f45cad6') in 0.018565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg09.png
+  artifactKey: Guid(7cf91c281522e0b4fa35a336ffe21f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg09.png using Guid(7cf91c281522e0b4fa35a336ffe21f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7ceb95e6bb9d61fcd1e25d2d1b9914') in 0.018090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg23.png
+  artifactKey: Guid(0769054ac2c98484ebdc8f3c06e9cb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg23.png using Guid(0769054ac2c98484ebdc8f3c06e9cb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab2136a52daf8bba5719d5eb05fd268') in 0.018027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg010.png
+  artifactKey: Guid(e4e38cd9515bb0847a335c609295b84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg010.png using Guid(e4e38cd9515bb0847a335c609295b84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f313dffada381cb377fc2525b42407') in 0.019596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg03.png
+  artifactKey: Guid(19c3faae4c195544d8d3bec9c76e37f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg03.png using Guid(19c3faae4c195544d8d3bec9c76e37f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca8042bb6558027f5fb782dc852fd0b') in 0.018358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg21.png
+  artifactKey: Guid(ca4691c69dfe3024bab428fb653ed954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg21.png using Guid(ca4691c69dfe3024bab428fb653ed954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bee844339f0768187a81f8bb76c642') in 0.020654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg216.png
+  artifactKey: Guid(b4bd986119c88db44bf50712f93e15ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg216.png using Guid(b4bd986119c88db44bf50712f93e15ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a075cd04a81a590259b90d6f51aec771') in 0.021446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NS Crack DoanhMDP/PNG/bg/bg011.png
+  artifactKey: Guid(e6ceb4578a9bb6f4fb3e4377b14395d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NS Crack DoanhMDP/PNG/bg/bg011.png using Guid(e6ceb4578a9bb6f4fb3e4377b14395d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecbd213e2c29ce7060525742194cc35') in 0.023238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
